@@ -1,0 +1,24 @@
+
+.container{
+	background-color: pink;
+}
+
+ h1{
+
+ 	background-color: yellowgreen;
+    width: 40%;
+    text-align: center;
+}
+
+.gemImage{
+	width: 50px;
+	height: auto;
+}
+
+.instructions{
+    width: 50%;
+    font-style: normal;
+    font-family: monospace;
+    color: blue;
+}
+
