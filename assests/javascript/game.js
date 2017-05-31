@@ -32,13 +32,13 @@ $( document ).ready(function(){
         var randomOnClick = newYourNumber(1 , 12);
         console.log(randomOnClick);
         yourTotalScore = yourTotalScore + randomOnClick;
-        $("#yourTotalScore").html(yourTotalScore);
+        $("#finalTotal").html(yourTotalScore);
 
-        if (yourTotalScore == randomNumber) {
+        if (finalTotal == randomNumber) {
             wins++;
             $('#wins').html(wins);
         }
-        if (yourTotalScore > randomNumber){
+        if (finalTotal > randomNumber){
             losses++;
             $("#losses").html(losses);
         }
@@ -49,7 +49,7 @@ $( document ).ready(function(){
        var randomOnClick = newYourNumber(1 , 12);
         console.log(randomOnClick);
         yourTotalScore = yourTotalScore + randomOnClick;
-        $("#yourTotalScore").html(yourTotalScore);
+        $("#finalTotal").html(yourTotalScore);
 
         if (yourTotalScore == randomNumber) {
             wins++;
@@ -65,7 +65,7 @@ $( document ).ready(function(){
       var randomOnClick = newYourNumber(1 , 12);
         console.log(randomOnClick);
         yourTotalScore = yourTotalScore + randomOnClick;
-        $("#yourTotalScore").html(yourTotalScore);
+        $("#finalTotal").html(yourTotalScore);
 
         if (yourTotalScore == randomNumber) {
             wins++;
@@ -81,7 +81,7 @@ $( document ).ready(function(){
       var randomOnClick = newYourNumber(1 , 12);
         console.log(randomOnClick);
         yourTotalScore = yourTotalScore + randomOnClick;
-        $("#yourTotalScore").html(yourTotalScore);
+        $("#finalTotal").html(yourTotalScore);
 
         if (yourTotalScore == randomNumber) {
             wins++;
